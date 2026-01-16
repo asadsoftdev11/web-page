@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(13, 114, 79);
+    color: yellow;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('calculator-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background: rgba(0, 0, 0, 0.5),
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+#first-p {
+    text-align: center;
+    color: rgb(229, 229, 137);
+    margin-top: 29px;
+    font-size: 25px;
+}
+
+.calculator {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#display {
+    justify-content: center;
+    margin-left: 575px;
+    width: 340px;
+    height: 60px;
+    font-size: 25px;
+    color: rgb(124, 12, 12);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #dbb9b9;
+}
+
+.btn {
+    background-color: #555;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 20px 0;
+    border: none;
+    box-shadow: 0 4px 6px rgba(44, 18, 7, 0.623);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.5s;
+    background-color: rgba(85, 85, 85, 0.6);
+}
+
+.btn:hover {
+    background-color: #777;
+}
+
+.btn.operator {
+    background-color: #ff9809;
+}
+
+.btn.operator:hover {
+    background-color: #9c641b;
+}
+
+#equals {
+    background-color: #34c759;
+    color: white;
+    grid-column: span 2;
+}
+
+#equals:hover {
+    background-color: #10922c;
+}
+
+#clear {
+    background-color: #ff3b30;
+    grid-column: span 2;
+}
+
+#clear:hover {
+    background-color: #a72720;
+}
+
+#c {
+    background-color: #a72720;
+}
+
+#c:hover {
+    background-color: #7d1010;
+}
